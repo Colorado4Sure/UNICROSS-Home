@@ -1,0 +1,115 @@
+[18-Jun-2022 01:05:51 Africa/Lagos] PHP Warning:  Attempt to read property "id" on null in /home/diteowxv/app.ditepay.com/core/functions.php on line 1167
+[18-Jun-2022 01:07:48 Africa/Lagos] PHP Warning:  Attempt to read property "id" on null in /home/diteowxv/app.ditepay.com/core/functions.php on line 1167
+[18-Jun-2022 02:52:59 Africa/Lagos] PHP Warning:  Attempt to read property "id" on null in /home/diteowxv/app.ditepay.com/core/functions.php on line 1167
+[22-Jun-2022 17:30:56 Africa/Lagos] PHP Warning:  Attempt to read property "id" on null in /home/diteowxv/app.ditepay.com/core/functions.php on line 1167
+[22-Jun-2022 17:41:31 Africa/Lagos] PHP Warning:  Attempt to read property "id" on null in /home/diteowxv/app.ditepay.com/core/functions.php on line 1167
+[22-Jun-2022 17:41:41 Africa/Lagos] PHP Warning:  Attempt to read property "id" on null in /home/diteowxv/app.ditepay.com/core/functions.php on line 1167
+[30-Jun-2022 03:37:59 Africa/Lagos] PHP Warning:  Attempt to read property "id" on null in /home/diteowxv/app.ditepay.com/core/functions.php on line 1167
+[02-Jul-2022 07:18:07 Africa/Lagos] PHP Warning:  Attempt to read property "id" on null in /home/diteowxv/app.ditepay.com/core/functions.php on line 1167
+[02-Jul-2022 07:19:47 Africa/Lagos] PHP Warning:  Attempt to read property "id" on null in /home/diteowxv/app.ditepay.com/core/functions.php on line 1167
+[02-Jul-2022 07:24:07 Africa/Lagos] PHP Warning:  Attempt to read property "id" on null in /home/diteowxv/app.ditepay.com/core/functions.php on line 1167
+[02-Jul-2022 18:51:32 Africa/Lagos] PHP Warning:  Attempt to read property "id" on null in /home/diteowxv/app.ditepay.com/core/functions.php on line 1167
+[12-Jul-2022 07:09:46 Africa/Lagos] PHP Warning:  Attempt to read property "id" on null in /home/diteowxv/app.ditepay.com/core/functions.php on line 1167
+[20-Jul-2022 11:55:08 Africa/Lagos] PHP Warning:  Attempt to read property "id" on null in /home/diteowxv/app.ditepay.com/core/functions.php on line 1167
+[20-Jul-2022 12:21:33 Africa/Lagos] PHP Warning:  Attempt to read property "id" on null in /home/diteowxv/app.ditepay.com/core/functions.php on line 1167
+[21-Jul-2022 07:56:27 Africa/Lagos] PHP Warning:  Attempt to read property "id" on null in /home/diteowxv/app.ditepay.com/core/functions.php on line 1167
+[27-Jul-2022 18:22:48 Africa/Lagos] PHP Warning:  Attempt to read property "id" on null in /home/diteowxv/app.ditepay.com/core/functions.php on line 1161
+[31-Jul-2022 13:17:57 Africa/Lagos] PHP Warning:  Attempt to read property "id" on null in /home/diteowxv/app.ditepay.com/core/functions.php on line 1161
+[31-Jul-2022 13:30:49 Africa/Lagos] PHP Warning:  Attempt to read property "id" on null in /home/diteowxv/app.ditepay.com/core/functions.php on line 1161
+[02-Aug-2022 08:10:17 Africa/Lagos] PHP Warning:  Attempt to read property "id" on null in /home/diteowxv/app.ditepay.com/core/functions.php on line 1161
+[21-Oct-2022 22:18:28 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home/diteowxv/app.ditepay.com/admin-cp/backend/user-actions.php on line 73
+[21-Oct-2022 22:18:35 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home/diteowxv/app.ditepay.com/admin-cp/backend/user-actions.php on line 73
+[21-Oct-2022 22:19:27 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home/diteowxv/app.ditepay.com/admin-cp/backend/user-actions.php on line 73
+[21-Oct-2022 22:20:57 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home/diteowxv/app.ditepay.com/admin-cp/backend/user-actions.php on line 73
+[21-Oct-2022 22:29:57 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home/diteowxv/app.ditepay.com/admin-cp/backend/user-actions.php on line 73
+[21-Oct-2022 22:30:07 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home/diteowxv/app.ditepay.com/admin-cp/backend/user-actions.php on line 73
+[21-Oct-2022 22:30:59 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home/diteowxv/app.ditepay.com/admin-cp/backend/user-actions.php on line 73
+[21-Oct-2022 22:31:04 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home/diteowxv/app.ditepay.com/admin-cp/backend/user-actions.php on line 73
+[21-Oct-2022 22:32:41 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home/diteowxv/app.ditepay.com/admin-cp/backend/user-actions.php on line 73
+[21-Oct-2022 22:32:46 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home/diteowxv/app.ditepay.com/admin-cp/backend/user-actions.php on line 73
+[21-Oct-2022 22:34:53 Africa/Lagos] PHP Warning:  Undefined variable $req in /home/diteowxv/app.ditepay.com/admin-cp/backend/user-actions.php on line 73
+[21-Oct-2022 22:34:53 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home/diteowxv/app.ditepay.com/admin-cp/backend/user-actions.php on line 73
+[21-Oct-2022 22:35:02 Africa/Lagos] PHP Warning:  Undefined variable $req in /home/diteowxv/app.ditepay.com/admin-cp/backend/user-actions.php on line 73
+[21-Oct-2022 22:35:02 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home/diteowxv/app.ditepay.com/admin-cp/backend/user-actions.php on line 73
+[21-Oct-2022 22:35:31 Africa/Lagos] PHP Warning:  Undefined variable $req in /home/diteowxv/app.ditepay.com/admin-cp/backend/user-actions.php on line 73
+[21-Oct-2022 22:35:31 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home/diteowxv/app.ditepay.com/admin-cp/backend/user-actions.php on line 73
+[21-Oct-2022 22:35:36 Africa/Lagos] PHP Warning:  Undefined variable $req in /home/diteowxv/app.ditepay.com/admin-cp/backend/user-actions.php on line 73
+[21-Oct-2022 22:35:36 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home/diteowxv/app.ditepay.com/admin-cp/backend/user-actions.php on line 73
+[21-Oct-2022 22:40:29 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home/diteowxv/app.ditepay.com/admin-cp/backend/user-actions.php on line 73
+[21-Oct-2022 22:40:34 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home/diteowxv/app.ditepay.com/admin-cp/backend/user-actions.php on line 73
+[21-Oct-2022 22:40:42 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home/diteowxv/app.ditepay.com/admin-cp/backend/user-actions.php on line 73
+[21-Oct-2022 22:41:24 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home/diteowxv/app.ditepay.com/admin-cp/backend/user-actions.php on line 73
+[21-Oct-2022 22:46:40 Africa/Lagos] PHP Warning:  Undefined variable $action in /home/diteowxv/app.ditepay.com/core/functions.php on line 3231
+[21-Oct-2022 22:46:40 Africa/Lagos] PHP Warning:  Undefined variable $response in /home/diteowxv/app.ditepay.com/core/functions.php on line 3235
+[21-Oct-2022 22:46:40 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home/diteowxv/app.ditepay.com/admin-cp/backend/user-actions.php on line 73
+[21-Oct-2022 22:46:45 Africa/Lagos] PHP Warning:  Undefined variable $action in /home/diteowxv/app.ditepay.com/core/functions.php on line 3231
+[21-Oct-2022 22:46:45 Africa/Lagos] PHP Warning:  Undefined variable $response in /home/diteowxv/app.ditepay.com/core/functions.php on line 3235
+[21-Oct-2022 22:46:45 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home/diteowxv/app.ditepay.com/admin-cp/backend/user-actions.php on line 73
+[21-Oct-2022 22:48:20 Africa/Lagos] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function app::gift_pin_actions(), 1 passed in /home/diteowxv/app.ditepay.com/admin-cp/backend/user-actions.php on line 72 and exactly 2 expected in /home/diteowxv/app.ditepay.com/core/functions.php:3229
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/admin-cp/backend/user-actions.php(72): app->gift_pin_actions()
+#1 {main}
+  thrown in /home/diteowxv/app.ditepay.com/core/functions.php on line 3229
+[21-Oct-2022 22:48:31 Africa/Lagos] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function app::gift_pin_actions(), 1 passed in /home/diteowxv/app.ditepay.com/admin-cp/backend/user-actions.php on line 72 and exactly 2 expected in /home/diteowxv/app.ditepay.com/core/functions.php:3229
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/admin-cp/backend/user-actions.php(72): app->gift_pin_actions()
+#1 {main}
+  thrown in /home/diteowxv/app.ditepay.com/core/functions.php on line 3229
+[21-Oct-2022 22:48:36 Africa/Lagos] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function app::gift_pin_actions(), 1 passed in /home/diteowxv/app.ditepay.com/admin-cp/backend/user-actions.php on line 72 and exactly 2 expected in /home/diteowxv/app.ditepay.com/core/functions.php:3229
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/admin-cp/backend/user-actions.php(72): app->gift_pin_actions()
+#1 {main}
+  thrown in /home/diteowxv/app.ditepay.com/core/functions.php on line 3229
+[22-Oct-2022 09:59:52 Africa/Lagos] PHP Warning:  Undefined array key "edit_id" in /home/diteowxv/app.ditepay.com/admin-cp/backend/user-actions.php on line 25
+[22-Oct-2022 09:59:59 Africa/Lagos] PHP Warning:  Undefined array key "edit_id" in /home/diteowxv/app.ditepay.com/admin-cp/backend/user-actions.php on line 25
+[22-Oct-2022 10:00:31 Africa/Lagos] PHP Warning:  Undefined array key "edit_id" in /home/diteowxv/app.ditepay.com/admin-cp/backend/user-actions.php on line 25
+[22-Oct-2022 10:00:39 Africa/Lagos] PHP Warning:  Undefined array key "edit_id" in /home/diteowxv/app.ditepay.com/admin-cp/backend/user-actions.php on line 25
+[22-Oct-2022 10:01:09 Africa/Lagos] PHP Warning:  Undefined array key "edit_id" in /home/diteowxv/app.ditepay.com/admin-cp/backend/user-actions.php on line 25
+[22-Oct-2022 10:32:51 Africa/Lagos] PHP Warning:  Undefined array key "gift_code" in /home/diteowxv/app.ditepay.com/admin-cp/backend/user-actions.php on line 87
+[22-Oct-2022 10:32:57 Africa/Lagos] PHP Warning:  Undefined array key "gift_code" in /home/diteowxv/app.ditepay.com/admin-cp/backend/user-actions.php on line 87
+[22-Oct-2022 10:48:38 Africa/Lagos] PHP Warning:  Undefined array key "gift_pin_amount" in /home/diteowxv/app.ditepay.com/admin-cp/backend/user-actions.php on line 73
+[22-Oct-2022 10:54:29 Africa/Lagos] PHP Warning:  Undefined array key "gift_pin_amount" in /home/diteowxv/app.ditepay.com/admin-cp/backend/user-actions.php on line 73
+[22-Oct-2022 11:03:22 Africa/Lagos] PHP Warning:  Attempt to read property "id" on null in /home/diteowxv/app.ditepay.com/core/functions.php on line 1161
+[22-Oct-2022 11:14:44 Africa/Lagos] PHP Warning:  Undefined array key "gift_pin_amount" in /home/diteowxv/app.ditepay.com/admin-cp/backend/user-actions.php on line 73
+[22-Oct-2022 11:14:44 Africa/Lagos] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/diteowxv/app.ditepay.com/core/functions.php:3248
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/core/functions.php(3248): mysqli_stmt->bind_param()
+#1 /home/diteowxv/app.ditepay.com/admin-cp/backend/user-actions.php(74): app->create_gift_pin_actions()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/core/functions.php on line 3248
+[22-Oct-2022 11:15:27 Africa/Lagos] PHP Warning:  Undefined array key "gift_pin_amount" in /home/diteowxv/app.ditepay.com/admin-cp/backend/user-actions.php on line 73
+[22-Oct-2022 11:15:27 Africa/Lagos] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/diteowxv/app.ditepay.com/core/functions.php:3248
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/core/functions.php(3248): mysqli_stmt->bind_param()
+#1 /home/diteowxv/app.ditepay.com/admin-cp/backend/user-actions.php(74): app->create_gift_pin_actions()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/core/functions.php on line 3248
+[22-Oct-2022 11:15:55 Africa/Lagos] PHP Warning:  Undefined array key "gift_pin_amount" in /home/diteowxv/app.ditepay.com/admin-cp/backend/user-actions.php on line 73
+[22-Oct-2022 11:15:55 Africa/Lagos] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/diteowxv/app.ditepay.com/core/functions.php:3248
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/core/functions.php(3248): mysqli_stmt->bind_param()
+#1 /home/diteowxv/app.ditepay.com/admin-cp/backend/user-actions.php(74): app->create_gift_pin_actions()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/core/functions.php on line 3248
+[22-Oct-2022 11:16:02 Africa/Lagos] PHP Warning:  Undefined array key "gift_pin_amount" in /home/diteowxv/app.ditepay.com/admin-cp/backend/user-actions.php on line 73
+[22-Oct-2022 11:16:02 Africa/Lagos] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/diteowxv/app.ditepay.com/core/functions.php:3248
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/core/functions.php(3248): mysqli_stmt->bind_param()
+#1 /home/diteowxv/app.ditepay.com/admin-cp/backend/user-actions.php(74): app->create_gift_pin_actions()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/core/functions.php on line 3248
+[22-Oct-2022 11:17:52 Africa/Lagos] PHP Warning:  Undefined array key "gift_pin_amount" in /home/diteowxv/app.ditepay.com/admin-cp/backend/user-actions.php on line 73
+[22-Oct-2022 11:17:52 Africa/Lagos] PHP Fatal error:  Uncaught Error: mysqli_stmt::bind_param(): Argument #3 cannot be passed by reference in /home/diteowxv/app.ditepay.com/core/functions.php:3248
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/admin-cp/backend/user-actions.php(74): app->create_gift_pin_actions()
+#1 {main}
+  thrown in /home/diteowxv/app.ditepay.com/core/functions.php on line 3248
+[22-Oct-2022 11:18:58 Africa/Lagos] PHP Warning:  Undefined array key "gift_pin_amount" in /home/diteowxv/app.ditepay.com/admin-cp/backend/user-actions.php on line 73
+[22-Oct-2022 11:19:23 Africa/Lagos] PHP Warning:  Undefined array key "gift_pin_amount" in /home/diteowxv/app.ditepay.com/admin-cp/backend/user-actions.php on line 73
+[22-Oct-2022 11:20:07 Africa/Lagos] PHP Warning:  Undefined array key "gift_pin_amount" in /home/diteowxv/app.ditepay.com/admin-cp/backend/user-actions.php on line 73
+[22-Oct-2022 11:20:40 Africa/Lagos] PHP Warning:  Undefined array key "gift_pin_amount" in /home/diteowxv/app.ditepay.com/admin-cp/backend/user-actions.php on line 73
+[22-Oct-2022 11:21:15 Africa/Lagos] PHP Warning:  Undefined array key "gift_pin_amount" in /home/diteowxv/app.ditepay.com/admin-cp/backend/user-actions.php on line 73
+[22-Oct-2022 11:23:05 Africa/Lagos] PHP Warning:  Undefined array key "gift_pin_amount" in /home/diteowxv/app.ditepay.com/admin-cp/backend/user-actions.php on line 73
+[22-Oct-2022 11:25:18 Africa/Lagos] PHP Warning:  Undefined array key "gift_pin_amount" in /home/diteowxv/app.ditepay.com/admin-cp/backend/user-actions.php on line 73
+[24-Oct-2022 10:31:55 Africa/Lagos] PHP Warning:  Attempt to read property "id" on null in /home/diteowxv/app.ditepay.com/core/functions.php on line 1162
+[11-Nov-2022 16:05:54 Africa/Lagos] PHP Warning:  Attempt to read property "id" on null in /home/diteowxv/app.ditepay.com/core/functions.php on line 1162

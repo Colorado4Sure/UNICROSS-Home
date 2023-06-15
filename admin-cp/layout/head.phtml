@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title><?=$page?> | <?=$sitename?></title>
+        <base href="<?=$siteurl?>/admin-cp/">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Quicksand:500,700" rel="stylesheet" />
+        <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/css/bootstrap.min.css" />
+
+        <!-- ICONS -->
+        <link rel="stylesheet" type="text/css" href="admin_assets/css/font-awesome-n.min.css">
+        <link rel="stylesheet" type="text/css" href="admin_assets/icon/feather/css/feather.css" />
+        <link rel="stylesheet" type="text/css" href="admin_assets/icon/feathericon.min.css" />
+        <link rel="stylesheet" type="text/css" href="admin_assets/icon/icofont/css/icofont.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+        <link rel="stylesheet" type="text/css" href="bower_components/sweetalert/css/sweetalert.css">
+        <link rel="stylesheet" type="text/css" href="admin_assets/css/ldbtn.min.css">
+        <link rel="stylesheet" type="text/css" href="admin_assets/css/ld-loading.min.css">
+        <link rel="stylesheet" type="text/css" href="admin_assets/css/pace-theme.css">
+        <link rel="stylesheet" type="text/css" href="bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css">
+
+        <link rel="stylesheet" type="text/css" href="bower_components/animate.css/css/animate.css">
+
+        <link rel="stylesheet" href="admin_assets/mdi/css/materialdesignicons.min.css">
+        <link rel="stylesheet" type="text/css" href="bower_components/switchery/css/switchery.min.css">
+
+        <link rel="stylesheet" type="text/css" href="bower_components/datatables.net-bs4/css/dataTables.bootstrap4.min.css">
+        <link rel="stylesheet" type="text/css" href="bower_components/datatables.net-responsive-bs4/css/responsive.bootstrap4.min.css">
+        <link rel="stylesheet" type="text/css" href="admin_assets/pages/data-table/extensions/buttons/css/buttons.dataTables.min.css">
+
+        <link rel="stylesheet" type="text/css" href="admin_assets/css/style.css" />
+        <link rel="stylesheet" type="text/css" href="admin_assets/css/pages.css">
+        <link rel="stylesheet" type="text/css" href="admin_assets/css/widget.css">
+        <link rel="stylesheet" type="text/css" href="admin_assets/css/prettify.css">
+
+        <script type="text/javascript" src="bower_components/jquery/js/jquery.min.js"></script>
+        <script type="text/javascript" src="bower_components/sweetalert/js/sweetalert.min.js"></script>
+
+        <script type="text/javascript">
+            function hasAttr(self,attrib) {
+                var attr = self.attr(attrib);
+                console.log(self);
+                console.log(attrib);
+                if (typeof attr !== typeof undefined && attr !== false) {
+                    console.log("has");
+                    return true;
+                }
+                console.log("!not-has");
+                return false;
+            }
+        </script>
+        <style>
+            body {
+                font-family: 'Quicksand','Open Sans';
+            }
+            .sweet-alert p {
+                font-weight: bold;
+            }
+            .user-img{
+                width: 100px;
+                height: 100px;
+            }
+            .profile-bg-img .img-fluid{
+                height: 180px!important;
+            }
+            .pcoded .pcoded-navbar .pcoded-item>li>a {
+                font-size: 16px!important;
+            }
+            .pcoded .pcoded-navbar .pcoded-item>li>a>.pcoded-micon {
+                font-size: 16px !important;
+            }
+            .ld-ext-left>.ld {
+                left: 40%;
+            }
+            .overlay-fixed {
+                position: fixed;
+                z-index: 99;
+                bottom: 0;
+                width: inherit;
+                color: white;
+            }
+            .card .card-block h4.sub-title{
+                font-weight: bold;
+            }
+            .page-preloader{
+                z-index: 9999;
+                position: fixed;
+                height: 100%;
+                width: 100vw;
+                background-color: white;
+            }
+            b, strong {
+                font-weight: bold!important;
+            }
+        </style>
+
+    </head>
+    <body>
+        <div class="loader-block page-preloader">
+            <div class="loader animation-start" style="left: 50vw;top: 40vh;right: auto; position: fixed">
+            <span class="circle delay-1 size-2"></span>
+            <span class="circle delay-2 size-4"></span>
+            <span class="circle delay-3 size-6"></span>
+            <span class="circle delay-4 size-7"></span>
+            <span class="circle delay-5 size-7"></span>
+            <span class="circle delay-6 size-6"></span>
+            <span class="circle delay-7 size-4"></span>
+            <span class="circle delay-8 size-2"></span>
+            </div>
+        </div>

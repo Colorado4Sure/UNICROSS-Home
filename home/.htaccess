@@ -1,0 +1,63 @@
+RewriteEngine on
+
+Options -Indexes
+## HTTPS ##
+## Uncomment the next 2 lines if you would like to force https#
+#RewriteCond %{HTTPS} off
+#RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R,L]
+
+## AUTH ##
+RewriteRule ^logout$ sources/logout.php [L,QSA]
+RewriteRule ^auth/(.*)$ sources/auth.php?auth_type=$1 [L,QSA]
+RewriteRule ^trans/(.*)$ account/backend/trans.php?trans_type=$1 [L,QSA]
+RewriteRule ^auth-assets/(.*)$ layout/auth/$1 [L,QSA]
+
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^(.+)/$ ./$1 [L,R]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+
+## SEO URLS ##
+RewriteRule ^login$ layout/auth/login.php [L,QSA]
+RewriteRule ^register$ layout/auth/register.php [L,QSA]
+RewriteRule ^verify$ layout/auth/verify.php [L,QSA]
+RewriteRule ^reset$ layout/auth/reset.php [L,QSA]
+RewriteRule ^forget-password$ layout/auth/forget-password.php [L,QSA]
+RewriteRule ^share/([a-zA-Z0-9_-]+)$ ./register?referral=$1 [NC,QSA]
+
+## API ##
+
+# Developers API #
+RewriteRule ^api/v1/(.*)$ api/v1/$1 [QSA,L]
+RewriteRule ^api-payments/([a-zA-Z0-9_-]+)$ api/api-payments.php?transaction_id=$1 [QSA,L]
+RewriteRule ^api-payments/([a-zA-Z0-9_-]+)/$ api/api-payments.php?transaction_id=$1 [QSA,L]
+
+
+RewriteRule ^api/([a-z_-]+)$ api/index.php?action=$1 [QSA,L]
+
+
+## PAYMENT CALLBACKS ##
+RewriteRule ^payment-callback/([a-z_-]+)$ sources/payment-callback.php?type=$1 [L,QSA]
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([a-z_-]+)/backend/([a-z_-]+)?(.*)$ $1/backend/$2.php?$3 [L,QSA]
+
+## USER DASHBOARD ##
+RewriteRule ^account/backend/$  [L,R=404]
+RewriteRule ^account/backend/loan/(.*)$ account/backend/loan/$1 [L,QSA]
+RewriteRule ^account/([a-z_-]+)/([a-zA-Z0-9_-]+)$ account/index.php?page=$1&sub=$2 [L,QSA]
+RewriteRule ^account/([a-z_-]+)$ account/index.php?page=$1 [L,QSA]
+RewriteRule ^account/([a-z_-]+)/$ account/index.php?page=$1 [L,QSA]
+
+## ADMIN DASHBOARD ##
+RewriteRule ^admin-cp/login$ admin-cp/auth.php [L,QSA]
+RewriteRule ^admin-cp/backend/$  [L,R=404]
+RewriteRule ^admin-cp/assets/(.*)$ account/assets/$1 [L,QSA]
+RewriteRule ^admin-cp/bower_components/(.*)$ account/bower_components/$1 [L,QSA]
+RewriteRule ^admin-cp/([a-z_-]+)/([a-zA-Z0-9_-]+)$ admin-cp/index.php?page=$1&sub=$2&trans_id=$3 [L,QSA]
+RewriteRule ^admin-cp/([a-z_-]+)$ admin-cp/index.php?page=$1 [L,QSA]
+RewriteRule ^admin-cp/([a-z_-]+)/$ admin-cp/index.php?page=$1 [L,QSA]

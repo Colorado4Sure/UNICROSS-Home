@@ -1,0 +1,98 @@
+@font-face {
+	font-family: "U8-Bold";
+	src: url("../fonts/U8-Bold/U8-Bold.eot");
+	src: url("../fonts/U8-Bold/U8-Bold.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/U8-Bold/U8-Bold.svg#U8-Bold") format("svg"),
+		url("../fonts/U8-Bold/U8-Bold.ttf") format("truetype"),
+		url("../fonts/U8-Bold/U8-Bold.woff") format("woff"),
+		url("../fonts/U8-Bold/U8-Bold.woff2") format("woff2");
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "U8-Black";
+	src: url("../fonts/U8-Black/U8-Black.eot");
+	src: url("../fonts/U8-Black/U8-Black.eot?#iefix")
+			format("embedded-opentype"),
+		url("../fonts/U8-Black/U8-Black.svg#U8-Black") format("svg"),
+		url("../fonts/U8-Black/U8-Black.ttf") format("truetype"),
+		url("../fonts/U8-Black/U8-Black.woff") format("woff"),
+		url("../fonts/U8-Black/U8-Black.woff2") format("woff2");
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "U8-Medium";
+	src: url("../fonts/U8-Medium/U8-Medium.eot");
+	src: url("../fonts/U8-Medium/U8-Medium.eot?#iefix")
+			format("embedded-opentype"),
+		url("../fonts/U8-Medium/U8-Medium.svg#U8-Medium") format("svg"),
+		url("../fonts/U8-Medium/U8-Medium.ttf") format("truetype"),
+		url("../fonts/U8-Medium/U8-Medium.woff") format("woff"),
+		url("../fonts/U8-Medium/U8-Medium.woff2") format("woff2");
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "U8-Regular";
+	src: url("../fonts/U8-Regular/U8-Regular.eot");
+	src: url("../fonts/U8-Regular/U8-Regular.eot?#iefix")
+			format("embedded-opentype"),
+		url("../fonts/U8-Regular/U8-Regular.svg#U8-Regular") format("svg"),
+		url("../fonts/U8-Regular/U8-Regular.ttf") format("truetype"),
+		url("../fonts/U8-Regular/U8-Regular.woff") format("woff"),
+		url("../fonts/U8-Regular/U8-Regular.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "U8-Light";
+	src: url("../fonts/U8-Light/U8-Light.eot");
+	src: url("../fonts/U8-Light/U8-Light.eot?#iefix")
+			format("embedded-opentype"),
+		url("../fonts/U8-Light/U8-Light.svg#U8-Light") format("svg"),
+		url("../fonts/U8-Light/U8-Light.ttf") format("truetype"),
+		url("../fonts/U8-Light/U8-Light.woff") format("woff"),
+		url("../fonts/U8-Light/U8-Light.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "U8-Thin";
+	src: url("../fonts/U8-Thin/U8-Thin.eot");
+	src: url("../fonts/U8-Thin/U8-Thin.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/U8-Thin/U8-Thin.svg#U8-Thin") format("svg"),
+		url("../fonts/U8-Thin/U8-Thin.ttf") format("truetype"),
+		url("../fonts/U8-Thin/U8-Thin.woff") format("woff"),
+		url("../fonts/U8-Thin/U8-Thin.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "U8-Hairline";
+	src: url("../fonts/U8-Hairline/U8-Hairline.eot");
+	src: url("../fonts/U8-Hairline/U8-Hairline.eot?#iefix")
+			format("embedded-opentype"),
+		url("../fonts/U8-Hairline/U8-Hairline.svg#U8-Hairline") format("svg"),
+		url("../fonts/U8-Hairline/U8-Hairline.ttf") format("truetype"),
+		url("../fonts/U8-Hairline/U8-Hairline.woff") format("woff"),
+		url("../fonts/U8-Hairline/U8-Hairline.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "U8-Bold" !important;
+	font-weight: 700;
+}

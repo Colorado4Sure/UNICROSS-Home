@@ -1,0 +1,155 @@
+[18-May-2022 08:29:11 America/New_York] PHP Warning:  Undefined array key "trxref" in /home/diteowxv/public_html/account/backend/deposit.php on line 48
+[18-May-2022 08:29:11 America/New_York] PHP Warning:  Undefined property: stdClass::$status in /home/diteowxv/public_html/account/backend/deposit.php on line 49
+[17-Jun-2022 12:47:05 America/New_York] PHP Warning:  Undefined array key "transaction_id" in /home/diteowxv/app.ditepay.com/account/backend/deposit.php on line 108
+[17-Jun-2022 12:47:05 America/New_York] PHP Warning:  Undefined property: stdClass::$status in /home/diteowxv/app.ditepay.com/account/backend/deposit.php on line 111
+[17-Jun-2022 15:29:17 America/New_York] PHP Warning:  Undefined array key "transaction_id" in /home/diteowxv/app.ditepay.com/account/backend/deposit.php on line 108
+[17-Jun-2022 15:29:17 America/New_York] PHP Warning:  Undefined property: stdClass::$status in /home/diteowxv/app.ditepay.com/account/backend/deposit.php on line 111
+[17-Jun-2022 20:58:34 America/New_York] PHP Warning:  Undefined array key "transaction_id" in /home/diteowxv/app.ditepay.com/account/backend/deposit.php on line 108
+[17-Jun-2022 20:58:35 America/New_York] PHP Warning:  Undefined property: stdClass::$status in /home/diteowxv/app.ditepay.com/account/backend/deposit.php on line 111
+[18-Jun-2022 17:35:16 America/New_York] PHP Warning:  Undefined array key "transaction_id" in /home/diteowxv/app.ditepay.com/account/backend/deposit.php on line 108
+[18-Jun-2022 17:35:16 America/New_York] PHP Warning:  Undefined property: stdClass::$status in /home/diteowxv/app.ditepay.com/account/backend/deposit.php on line 111
+[18-Jun-2022 17:49:49 America/New_York] PHP Warning:  Undefined array key "transaction_id" in /home/diteowxv/app.ditepay.com/account/backend/deposit.php on line 108
+[18-Jun-2022 17:49:50 America/New_York] PHP Warning:  Undefined property: stdClass::$status in /home/diteowxv/app.ditepay.com/account/backend/deposit.php on line 111
+[20-Jun-2022 04:18:07 America/New_York] PHP Warning:  Undefined array key "transaction_id" in /home/diteowxv/app.ditepay.com/account/backend/deposit.php on line 108
+[20-Jun-2022 04:18:08 America/New_York] PHP Warning:  Undefined property: stdClass::$status in /home/diteowxv/app.ditepay.com/account/backend/deposit.php on line 111
+[21-Jun-2022 09:00:18 America/New_York] PHP Warning:  Undefined array key "transaction_id" in /home/diteowxv/app.ditepay.com/account/backend/deposit.php on line 108
+[21-Jun-2022 09:00:18 America/New_York] PHP Warning:  Undefined property: stdClass::$status in /home/diteowxv/app.ditepay.com/account/backend/deposit.php on line 111
+[21-Jun-2022 15:07:11 America/New_York] PHP Warning:  Undefined array key "transaction_id" in /home/diteowxv/app.ditepay.com/account/backend/deposit.php on line 108
+[21-Jun-2022 15:07:12 America/New_York] PHP Warning:  Undefined property: stdClass::$status in /home/diteowxv/app.ditepay.com/account/backend/deposit.php on line 111
+[23-Jun-2022 11:13:43 America/New_York] PHP Warning:  Undefined array key "transaction_id" in /home/diteowxv/app.ditepay.com/account/backend/deposit.php on line 108
+[23-Jun-2022 11:13:43 America/New_York] PHP Warning:  Undefined property: stdClass::$status in /home/diteowxv/app.ditepay.com/account/backend/deposit.php on line 111
+[22-Oct-2022 21:58:15 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined method User::clean() in /home/diteowxv/app.ditepay.com/account/backend/giftpin.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/diteowxv/app.ditepay.com/account/backend/giftpin.php on line 4
+[22-Oct-2022 23:55:02 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined method User::clean() in /home/diteowxv/app.ditepay.com/account/backend/giftpin.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/diteowxv/app.ditepay.com/account/backend/giftpin.php on line 4
+[22-Oct-2022 19:39:43 America/New_York] PHP Fatal error:  Cannot redeclare User::withdraw_from_card() in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 2191
+[23-Oct-2022 00:41:29 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home/diteowxv/app.ditepay.com/account/backend/giftpin.php on line 9
+[23-Oct-2022 01:32:53 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home/diteowxv/app.ditepay.com/account/backend/giftpin.php on line 14
+[23-Oct-2022 01:32:53 Africa/Lagos] PHP Warning:  Undefined variable $response in /home/diteowxv/app.ditepay.com/account/backend/giftpin.php on line 21
+[23-Oct-2022 06:57:13 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home/diteowxv/app.ditepay.com/account/backend/giftpin.php on line 14
+[23-Oct-2022 06:57:13 Africa/Lagos] PHP Warning:  Undefined variable $response in /home/diteowxv/app.ditepay.com/account/backend/giftpin.php on line 21
+[23-Oct-2022 08:31:55 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home/diteowxv/app.ditepay.com/account/backend/giftpin.php on line 14
+[23-Oct-2022 08:31:55 Africa/Lagos] PHP Warning:  Undefined variable $response in /home/diteowxv/app.ditepay.com/account/backend/giftpin.php on line 21
+[23-Oct-2022 14:35:50 Africa/Lagos] PHP Warning:  Undefined variable $status in /home/diteowxv/app.ditepay.com/account/backend/giftpin.php on line 8
+[23-Oct-2022 14:35:50 Africa/Lagos] PHP Warning:  Undefined variable $msg in /home/diteowxv/app.ditepay.com/account/backend/giftpin.php on line 8
+[23-Oct-2022 14:37:55 Africa/Lagos] PHP Warning:  Undefined variable $status in /home/diteowxv/app.ditepay.com/account/backend/giftpin.php on line 8
+[23-Oct-2022 14:37:55 Africa/Lagos] PHP Warning:  Undefined variable $msg in /home/diteowxv/app.ditepay.com/account/backend/giftpin.php on line 8
+[23-Oct-2022 14:40:03 Africa/Lagos] PHP Warning:  Undefined variable $status in /home/diteowxv/app.ditepay.com/account/backend/giftpin.php on line 8
+[23-Oct-2022 14:40:03 Africa/Lagos] PHP Warning:  Undefined variable $msg in /home/diteowxv/app.ditepay.com/account/backend/giftpin.php on line 8
+[23-Oct-2022 15:09:40 Africa/Lagos] PHP Fatal error:  Uncaught ArgumentCountError: mysqli_stmt::get_result() expects exactly 0 arguments, 1 given in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:2198
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(2198): mysqli_stmt->get_result()
+#1 /home/diteowxv/app.ditepay.com/account/backend/giftpin.php(11): User->RedeemGiftPin()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 2198
+[23-Oct-2022 15:11:42 Africa/Lagos] PHP Warning:  Undefined property: mysqli_result::$gift_id in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 2199
+[23-Oct-2022 15:12:40 Africa/Lagos] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:2199
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/account/backend/giftpin.php(11): User->RedeemGiftPin()
+#1 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 2199
+[23-Oct-2022 15:13:39 Africa/Lagos] PHP Warning:  Undefined property: mysqli_result::$gift_code in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 2199
+[23-Oct-2022 15:17:56 Africa/Lagos] PHP Warning:  Attempt to read property "gift_code" on null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 2200
+[23-Oct-2022 15:27:19 Africa/Lagos] PHP Warning:  Undefined variable $coin in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 2204
+[23-Oct-2022 15:56:59 Africa/Lagos] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE gift_code = ?' at line 1 in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:2207
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(2207): mysqli->prepare()
+#1 /home/diteowxv/app.ditepay.com/account/backend/giftpin.php(11): User->RedeemGiftPin()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 2207
+[23-Oct-2022 15:57:39 Africa/Lagos] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE gift_code = ?' at line 1 in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:2207
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(2207): mysqli->prepare()
+#1 /home/diteowxv/app.ditepay.com/account/backend/giftpin.php(11): User->RedeemGiftPin()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 2207
+[23-Oct-2022 15:59:05 Africa/Lagos] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE gift_code = ?' at line 1 in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:2207
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(2207): mysqli->prepare()
+#1 /home/diteowxv/app.ditepay.com/account/backend/giftpin.php(11): User->RedeemGiftPin()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 2207
+[23-Oct-2022 16:00:37 Africa/Lagos] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE gift_code = ?' at line 1 in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:2207
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(2207): mysqli->prepare()
+#1 /home/diteowxv/app.ditepay.com/account/backend/giftpin.php(11): User->RedeemGiftPin()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 2207
+[23-Oct-2022 16:01:18 Africa/Lagos] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE gift_code = ?' at line 1 in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:2207
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(2207): mysqli->prepare()
+#1 /home/diteowxv/app.ditepay.com/account/backend/giftpin.php(11): User->RedeemGiftPin()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 2207
+[23-Oct-2022 16:03:45 Africa/Lagos] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE gift_code = ?' at line 1 in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:2207
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(2207): mysqli->prepare()
+#1 /home/diteowxv/app.ditepay.com/account/backend/giftpin.php(11): User->RedeemGiftPin()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 2207
+[23-Oct-2022 16:05:07 Africa/Lagos] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE gift_code = ?' at line 1 in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:2207
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(2207): mysqli->prepare()
+#1 /home/diteowxv/app.ditepay.com/account/backend/giftpin.php(11): User->RedeemGiftPin()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 2207
+[23-Oct-2022 16:20:45 Africa/Lagos] PHP Fatal error:  Uncaught Error: Object of class mysqli_stmt could not be converted to string in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:2208
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/account/backend/giftpin.php(11): User->RedeemGiftPin()
+#1 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 2208
+[24-Oct-2022 16:06:12 Africa/Lagos] PHP Warning:  Undefined array key "user_balance " in /home/diteowxv/app.ditepay.com/account/backend/giftpin.php on line 19
+[24-Oct-2022 16:08:11 Africa/Lagos] PHP Warning:  Undefined array key "user_balance " in /home/diteowxv/app.ditepay.com/account/backend/giftpin.php on line 19
+[24-Oct-2022 16:08:30 Africa/Lagos] PHP Warning:  Undefined array key "user_balance " in /home/diteowxv/app.ditepay.com/account/backend/giftpin.php on line 19
+[30-Oct-2022 23:52:06 Africa/Lagos] PHP Warning:  Undefined array key "userid" in /home/diteowxv/app.ditepay.com/account/backend/notify_token.php on line 8
+[30-Oct-2022 23:55:20 Africa/Lagos] PHP Warning:  Undefined array key "userid" in /home/diteowxv/app.ditepay.com/account/backend/notify_token.php on line 8
+[30-Oct-2022 23:56:34 Africa/Lagos] PHP Warning:  Undefined array key "token" in /home/diteowxv/app.ditepay.com/account/backend/notify_token.php on line 8
+[31-Oct-2022 00:00:14 Africa/Lagos] PHP Warning:  Undefined array key "token" in /home/diteowxv/app.ditepay.com/account/backend/notify_token.php on line 8
+[31-Oct-2022 00:03:20 Africa/Lagos] PHP Warning:  Undefined array key "userid" in /home/diteowxv/app.ditepay.com/account/backend/notify_token.php on line 8
+[31-Oct-2022 08:56:30 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined function SendPushNotify() in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:2241
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/account/backend/notify_token.php(11): User->UpdateNotifyToken()
+#1 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 2241
+[31-Oct-2022 08:57:32 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined function SendPushNotify() in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:2241
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/account/backend/notify_token.php(11): User->UpdateNotifyToken()
+#1 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 2241
+[31-Oct-2022 08:58:29 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined function SendPushNotify() in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:2241
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/account/backend/notify_token.php(11): User->UpdateNotifyToken()
+#1 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 2241
+[31-Oct-2022 08:59:57 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined function SendPushNotify() in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:2241
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/account/backend/notify_token.php(11): User->UpdateNotifyToken()
+#1 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 2241
+[31-Oct-2022 09:01:31 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined function SendPushNotify() in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:2241
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/account/backend/notify_token.php(11): User->UpdateNotifyToken()
+#1 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 2241
+[31-Oct-2022 09:03:59 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined function SendPushNotify() in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:2241
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/account/backend/notify_token.php(11): User->UpdateNotifyToken()
+#1 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 2241
+[31-Oct-2022 09:07:12 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined function Notify() in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:2241
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/account/backend/notify_token.php(11): User->UpdateNotifyToken()
+#1 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 2241
+[31-Oct-2022 09:31:17 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined function Notify() in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:2232
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/account/backend/giftpin.php(23): User->BuyGiftPin()
+#1 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 2232
+[20-Nov-2022 15:17:17 Africa/Lagos] PHP Warning:  Attempt to read property "data" on null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 2289
+[20-Nov-2022 19:49:26 Africa/Lagos] PHP Warning:  Attempt to read property "data" on null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 2289
+[15-Jan-2023 21:17:21 Africa/Lagos] PHP Warning:  Attempt to read property "data" on null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 2289

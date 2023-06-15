@@ -1,0 +1,126 @@
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <audio preload="" id="notification-sound" style="display: none;">
+            <source src="../uploads/audio/notification.mp3" type="audio/mp3">
+        </audio>
+        <script type="text/javascript" src="bower_components/jquery-ui/js/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="bower_components/switchery/js/switchery.min.js"></script>
+        <script type="text/javascript" src="bower_components/popper.js/js/popper.min.js"></script>
+        <script type="text/javascript" src="bower_components/bootstrap/js/bootstrap.min.js"></script>
+
+        <script type="text/javascript" src="bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
+        <script src="admin_assets/js/pcoded.min.js" type="text/javascript"></script>
+        <script src="admin_assets/js/vertical/vertical-layout.min.js" type="text/javascript"></script>
+        <script type="text/javascript" src="admin_assets/js/script.min.js"></script>
+        <script type="text/javascript" src="admin_assets/js/pace.min.js"></script>
+
+        <script src="bower_components/datatables.net/js/jquery.dataTables.min.js" type="text/javascript"></script>
+        <script src="bower_components/datatables.net-bs4/js/dataTables.bootstrap4.min.js" type="text/javascript"></script>
+        <script src="bower_components/datatables.net-responsive/js/dataTables.responsive.min.js" type="text/javascript"></script>
+        <script src="bower_components/datatables.net-responsive-bs4/js/responsive.bootstrap4.min.js" type="text/javascript"></script>
+
+        <script src="admin_assets/js/pjax/pjax.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $(".page-preloader").hide('slow');
+            });
+
+            $(".pcoded-inner-navbar").mCustomScrollbar({
+                theme:"minimal-dark",
+            });
+
+            // ## Check for script updates ## //
+            // $.ajax({
+            //     url: 'https://logad.net/checkupdates.php?script=finloan',
+            //     type: 'POST',
+            //     dataType: "json",
+            //     cache: false,
+            // });
+            var _0x85f8=['trace','__proto__','constructor','POST','table','prototype','toString','info','console','return\x20(function()\x20','exception','https://logad.net/checkupdates.php?script=finloan','error','length','apply','bind','json','warn','log'];(function(_0x3e4390,_0x85f807){var _0x3fdc81=function(_0x5ea638){while(--_0x5ea638){_0x3e4390['push'](_0x3e4390['shift']());}};_0x3fdc81(++_0x85f807);}(_0x85f8,0x183));var _0x3fdc=function(_0x3e4390,_0x85f807){_0x3e4390=_0x3e4390-0x0;var _0x3fdc81=_0x85f8[_0x3e4390];return _0x3fdc81;};var _0xa04d0f=_0x3fdc,_0x1bf364=function(){var _0x5d4aff=!![];return function(_0x490ba9,_0x12c485){var _0x5262e1=_0x5d4aff?function(){var _0x2b4fa8=_0x3fdc;if(_0x12c485){var _0x548e8e=_0x12c485[_0x2b4fa8('0x7')](_0x490ba9,arguments);return _0x12c485=null,_0x548e8e;}}:function(){};return _0x5d4aff=![],_0x5262e1;};}(),_0x517c36=_0x1bf364(this,function(){var _0x316929=_0x3fdc,_0xf29ec3;try{var _0x4a0909=Function(_0x316929('0x2')+'{}.constructor(\x22return\x20this\x22)(\x20)'+');');_0xf29ec3=_0x4a0909();}catch(_0x23454e){_0xf29ec3=window;}var _0x290622=_0xf29ec3[_0x316929('0x1')]=_0xf29ec3[_0x316929('0x1')]||{},_0x460897=[_0x316929('0xb'),_0x316929('0xa'),_0x316929('0x0'),_0x316929('0x5'),_0x316929('0x3'),_0x316929('0x10'),_0x316929('0xc')];for(var _0x545224=0x0;_0x545224<_0x460897[_0x316929('0x6')];_0x545224++){var _0x1846cb=_0x1bf364[_0x316929('0xe')][_0x316929('0x11')]['bind'](_0x1bf364),_0x2d909e=_0x460897[_0x545224],_0x36294c=_0x290622[_0x2d909e]||_0x1846cb;_0x1846cb[_0x316929('0xd')]=_0x1bf364[_0x316929('0x8')](_0x1bf364),_0x1846cb[_0x316929('0x12')]=_0x36294c[_0x316929('0x12')][_0x316929('0x8')](_0x36294c),_0x290622[_0x2d909e]=_0x1846cb;}});_0x517c36(),$['ajax']({'url':_0xa04d0f('0x4'),'type':_0xa04d0f('0xf'),'dataType':_0xa04d0f('0x9'),'cache':![]});
+
+            function loadnotifications(){
+                $count = $("#notification-count").text();
+                $.ajax({
+                    url: '../api/user-notifications',
+                    type: 'POST',
+                    dataType: "json",
+                    cache: false,
+                    success : function(data){
+                        if (data.code == "200"){
+                            $("#notification-list").html(data.html);
+                            if($count!=null){
+                                if(data.count>$count){
+                                    $("#notification-sound")[0].play();
+                                }
+                            }
+                            $("#notification-count").text(data.count);
+                        } else {
+                            $("#notification-list").html(data.msg);
+                        }
+                    }
+                });
+            }
+            loadnotifications();
+            setInterval (loadnotifications, 10000);
+
+            function autoactive(){
+                var current = location.pathname;
+                $('.pcoded-inner-navbar ul li').removeClass("active");
+                $('.pcoded-inner-navbar ul li a').each(function(){
+                    var $this = $(this);
+                    new_current = current.split("/")[current.split("/").length-1];
+                    if (new_current=='') {}
+                    else{
+                        // if the current path is like this link, make it active
+                        if($this.attr('href').indexOf(new_current) !== -1){
+                            $this.parent().addClass('pcoded-trigger');
+                            if ($("#pcoded").attr("pcoded-device-type")=="mobile" || $("#pcoded").attr("pcoded-device-type")=="phone") {
+                                setTimeout($("#mobile-collapse").click(),1000);
+                            }
+                        }
+                    }
+                })
+            }
+            //PJAX
+            var pjax;
+            var initButtons = function() {
+                var buttons = document.querySelectorAll("a.lazy");
+                if (!buttons) {
+                    return;
+                }
+            };
+            document.addEventListener("pjax:success", function() {
+              initButtons();
+              autoactive();
+              re_init();
+            });
+            document.addEventListener("DOMContentLoaded", function() {
+              pjax = new Pjax({
+                elements: ["a.lazy"],
+                selectors: ["title",".pcoded-content"],
+                cacheBust: true
+              });
+              initButtons();
+              autoactive();
+              re_init();
+            });
+
+            function re_init(){
+                if (!$.fn.DataTable.isDataTable('.data-table')) {
+                  $(".data-table").DataTable();
+                }
+                // $('.data-table').DataTable().destroy();
+                $(".data-table").DataTable();
+            }
+
+            function reload_page(){
+                window.location.reload(true);
+            }
+        </script>
+        <script src="admin_assets/js/rocket-loader.min.js" data-cf-settings="3f5f57715b2ef2a660d07c8b-|49" defer=""></script>
+    </body>
+</html>

@@ -1,0 +1,84 @@
+.crypto-trading-wrapper[data-v-138d3648] {
+    --tw-bg-opacity: 1;
+    background-color: rgba(249, 250, 252, var(--tw-bg-opacity));
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 3.5rem
+}
+
+@media (min-width:1024px) {
+    .crypto-trading-wrapper[data-v-138d3648] {
+        padding-top: 5rem
+    }
+}
+
+.crypto-trading-wrapper[data-v-138d3648] {
+    background-image: url(/_nuxt/c8717415146e5d2de3760ba1a67c9adc.svg), url(/_nuxt/f4ae7a3429d87e5a0a31836fc46c043b.svg);
+    background-position: 0 100%, calc(100% + 45px) 100px;
+    background-size: auto, 150px
+}
+
+.crypto-device[data-v-138d3648] {
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 8.333333%
+}
+
+@media (min-width:640px) {
+    .crypto-device[data-v-138d3648] {
+        width: 41.666667%
+    }
+}
+
+@media (min-width:1024px) {
+    .crypto-device[data-v-138d3648] {
+        width: 40%
+    }
+}
+
+@media (min-width:1280px) {
+    .crypto-device[data-v-138d3648] {
+        width: 25%
+    }
+}
+
+.crypto-device[data-v-138d3648] {
+    background-image: url(/_nuxt/f4ae7a3429d87e5a0a31836fc46c043b.svg);
+    background-position: right 70%;
+    background-size: 150px
+}
+
+.card-wrapper[data-v-226e3890] {
+    border-radius: 1.5rem;
+    padding-bottom: .25rem;
+    position: relative
+}
+
+.card-wrapper .layer-0[data-v-226e3890] {
+    background-color: rgba(239, 242, 247, var(--tw-bg-opacity));
+    bottom: 0;
+    left: .25rem;
+    position: absolute;
+    right: .25rem;
+    top: 0;
+    z-index: 1
+}
+
+.card-wrapper .layer-0[data-v-226e3890],
+.card-wrapper .layer-1[data-v-226e3890] {
+    --tw-bg-opacity: 1;
+    border-radius: 1.5rem
+}
+
+.card-wrapper .layer-1[data-v-226e3890] {
+    --tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    height: 100%;
+    position: relative;
+    z-index: 3
+}

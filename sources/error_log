@@ -1,0 +1,1040 @@
+[12-May-2022 16:26:20 America/New_York] PHP Warning:  Attempt to read property "data" on null in /home/diteowxv/public_html/main/classes/user.class.php on line 1716
+[12-May-2022 16:26:20 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/diteowxv/public_html/main/classes/user.class.php on line 240
+[12-May-2022 16:26:20 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/diteowxv/public_html/main/classes/user.class.php on line 249
+[12-May-2022 16:33:03 America/New_York] PHP Warning:  Attempt to read property "data" on null in /home/diteowxv/public_html/main/classes/user.class.php on line 1716
+[12-May-2022 16:33:03 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/diteowxv/public_html/main/classes/user.class.php on line 240
+[12-May-2022 16:33:03 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/diteowxv/public_html/main/classes/user.class.php on line 249
+[12-May-2022 16:34:00 America/New_York] PHP Warning:  Attempt to read property "data" on null in /home/diteowxv/public_html/main/classes/user.class.php on line 1716
+[12-May-2022 16:34:00 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/diteowxv/public_html/main/classes/user.class.php on line 240
+[12-May-2022 16:34:00 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/diteowxv/public_html/main/classes/user.class.php on line 249
+[17-May-2022 08:01:15 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/diteowxv/public_html/main/classes/user.class.php on line 240
+[17-May-2022 08:01:15 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/diteowxv/public_html/main/classes/user.class.php on line 249
+[06-Jun-2022 08:11:14 America/New_York] PHP Warning:  Attempt to read property "status" on null in /home/diteowxv/public_html/main/classes/user.class.php on line 188
+[06-Jun-2022 08:11:14 America/New_York] PHP Warning:  Attempt to read property "message" on null in /home/diteowxv/public_html/main/classes/user.class.php on line 188
+[06-Jun-2022 17:40:43 America/New_York] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/public_html/main/classes/user.class.php:224
+Stack trace:
+#0 /home/diteowxv/public_html/main/classes/user.class.php(224): getimagesize()
+#1 /home/diteowxv/public_html/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/public_html/main/classes/user.class.php on line 224
+[14-Jun-2022 16:43:02 America/New_York] PHP Warning:  Attempt to read property "status" on null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 188
+[14-Jun-2022 16:43:02 America/New_York] PHP Warning:  Attempt to read property "message" on null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 188
+[14-Jun-2022 20:44:35 America/New_York] PHP Warning:  Attempt to read property "data" on null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 2105
+[14-Jun-2022 20:44:41 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 331
+[14-Jun-2022 20:44:41 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 340
+[14-Jun-2022 20:45:39 America/New_York] PHP Warning:  Attempt to read property "data" on null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 2105
+[14-Jun-2022 20:45:44 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 331
+[14-Jun-2022 20:45:44 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 340
+[14-Jun-2022 20:46:46 America/New_York] PHP Warning:  Attempt to read property "data" on null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 2105
+[14-Jun-2022 20:46:52 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 331
+[14-Jun-2022 20:46:52 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 340
+[15-Jun-2022 08:55:42 America/New_York] PHP Warning:  Attempt to read property "status" on null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 188
+[15-Jun-2022 08:55:42 America/New_York] PHP Warning:  Attempt to read property "message" on null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 188
+[17-Jun-2022 01:40:36 America/New_York] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:224
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(224): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 224
+[17-Jun-2022 01:42:46 America/New_York] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:224
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(224): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 224
+[17-Jun-2022 03:08:14 America/New_York] PHP Warning:  Attempt to read property "status" on null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 188
+[17-Jun-2022 03:08:14 America/New_York] PHP Warning:  Attempt to read property "message" on null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 188
+[17-Jun-2022 12:56:33 America/New_York] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:224
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(224): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 224
+[18-Jun-2022 06:30:41 America/New_York] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:224
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(224): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 224
+[18-Jun-2022 06:30:45 America/New_York] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:224
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(224): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 224
+[18-Jun-2022 09:26:26 America/New_York] PHP Warning:  Attempt to read property "status" on null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 971
+[18-Jun-2022 09:26:26 America/New_York] PHP Warning:  Attempt to read property "message" on null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 971
+[18-Jun-2022 18:15:23 America/New_York] PHP Warning:  Attempt to read property "status" on null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 188
+[18-Jun-2022 18:15:23 America/New_York] PHP Warning:  Attempt to read property "message" on null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 188
+[19-Jun-2022 03:31:51 America/New_York] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:224
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(224): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 224
+[19-Jun-2022 05:58:17 America/New_York] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:224
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(224): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 224
+[20-Jun-2022 03:19:32 America/New_York] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:224
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(224): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 224
+[20-Jun-2022 12:35:10 America/New_York] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:224
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(224): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 224
+[20-Jun-2022 12:35:22 America/New_York] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:224
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(224): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 224
+[20-Jun-2022 12:36:13 America/New_York] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:224
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(224): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 224
+[20-Jun-2022 12:40:02 America/New_York] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:224
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(224): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 224
+[20-Jun-2022 12:40:34 America/New_York] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:224
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(224): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 224
+[20-Jun-2022 12:40:47 America/New_York] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:224
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(224): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 224
+[20-Jun-2022 12:40:50 America/New_York] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:224
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(224): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 224
+[20-Jun-2022 12:40:52 America/New_York] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:224
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(224): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 224
+[22-Jun-2022 08:52:13 America/New_York] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:224
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(224): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 224
+[22-Jun-2022 13:07:31 America/New_York] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:224
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(224): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 224
+[26-Jun-2022 14:59:27 America/New_York] PHP Warning:  Attempt to read property "status" on null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 143
+[26-Jun-2022 14:59:27 America/New_York] PHP Warning:  Attempt to read property "message" on null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 143
+[29-Jun-2022 04:23:02 America/New_York] PHP Warning:  Attempt to read property "status" on null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 143
+[29-Jun-2022 04:23:02 America/New_York] PHP Warning:  Attempt to read property "message" on null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 143
+[29-Jun-2022 21:59:05 America/New_York] PHP Warning:  Attempt to read property "data" on null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 2105
+[29-Jun-2022 21:59:08 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 331
+[29-Jun-2022 21:59:08 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 340
+[29-Jun-2022 21:59:19 America/New_York] PHP Warning:  Attempt to read property "data" on null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 2105
+[29-Jun-2022 21:59:24 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 331
+[29-Jun-2022 21:59:24 America/New_York] PHP Warning:  Trying to access array offset on value of type null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 340
+[15-Jul-2022 09:22:58 America/New_York] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:224
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(224): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 224
+[15-Jul-2022 09:23:23 America/New_York] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:224
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(224): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 224
+[16-Jul-2022 13:25:12 America/New_York] PHP Warning:  Attempt to read property "status" on null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 188
+[16-Jul-2022 13:25:12 America/New_York] PHP Warning:  Attempt to read property "message" on null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 188
+[17-Jul-2022 07:33:58 America/New_York] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:224
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(224): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 224
+[18-Jul-2022 04:54:09 America/New_York] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:224
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(224): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 224
+[18-Jul-2022 04:54:58 America/New_York] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:224
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(224): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 224
+[18-Jul-2022 04:55:45 America/New_York] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:224
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(224): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 224
+[18-Jul-2022 04:57:15 America/New_York] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:224
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(224): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 224
+[18-Jul-2022 04:57:16 America/New_York] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:224
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(224): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 224
+[18-Jul-2022 04:57:17 America/New_York] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:224
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(224): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 224
+[18-Jul-2022 07:41:54 America/New_York] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:224
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(224): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 224
+[18-Jul-2022 07:44:11 America/New_York] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:224
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(224): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 224
+[18-Jul-2022 13:48:37 America/New_York] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:224
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(224): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 224
+[18-Jul-2022 13:48:53 America/New_York] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:224
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(224): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 224
+[19-Jul-2022 17:21:49 America/New_York] PHP Warning:  Attempt to read property "status" on null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 143
+[19-Jul-2022 17:21:49 America/New_York] PHP Warning:  Attempt to read property "message" on null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 143
+[24-Jul-2022 10:06:41 America/New_York] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:224
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(224): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 224
+[24-Jul-2022 16:30:56 America/New_York] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:224
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(224): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 224
+[24-Jul-2022 16:33:06 America/New_York] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:224
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(224): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 224
+[24-Jul-2022 16:33:14 America/New_York] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:224
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(224): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 224
+[24-Jul-2022 16:33:27 America/New_York] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:224
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(224): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 224
+[24-Jul-2022 16:33:42 America/New_York] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:224
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(224): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 224
+[25-Jul-2022 06:27:43 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:223
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(223): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 223
+[25-Jul-2022 06:28:08 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:223
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(223): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 223
+[25-Jul-2022 06:33:13 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:223
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(223): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 223
+[25-Jul-2022 10:58:52 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:223
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(223): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 223
+[25-Jul-2022 11:00:50 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:223
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(223): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 223
+[25-Jul-2022 15:34:57 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:223
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(223): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 223
+[26-Jul-2022 16:34:43 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:223
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(223): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 223
+[26-Jul-2022 16:35:16 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:223
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(223): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 223
+[26-Jul-2022 16:37:01 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:223
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(223): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 223
+[26-Jul-2022 16:40:53 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:223
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(223): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 223
+[28-Jul-2022 08:35:16 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:223
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(223): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 223
+[28-Jul-2022 20:03:49 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:223
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(223): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 223
+[29-Jul-2022 10:12:06 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:223
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(223): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 223
+[02-Aug-2022 23:06:31 Africa/Lagos] PHP Warning:  Attempt to read property "status" on null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 145
+[02-Aug-2022 23:06:31 Africa/Lagos] PHP Warning:  Attempt to read property "message" on null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 145
+[05-Aug-2022 10:43:54 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:223
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(223): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 223
+[08-Aug-2022 09:38:06 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:223
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(223): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 223
+[14-Aug-2022 21:37:42 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:223
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(223): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 223
+[14-Aug-2022 21:37:58 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:223
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(223): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 223
+[18-Aug-2022 18:39:55 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:223
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(223): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 223
+[18-Aug-2022 18:45:22 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:223
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(223): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 223
+[18-Aug-2022 20:11:33 Africa/Lagos] PHP Warning:  Undefined array key "document" in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 216
+[18-Aug-2022 20:11:33 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 216
+[18-Aug-2022 20:11:33 Africa/Lagos] PHP Warning:  Undefined array key "document" in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 220
+[18-Aug-2022 20:11:33 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 220
+[18-Aug-2022 20:11:33 Africa/Lagos] PHP Warning:  Undefined array key "document" in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 223
+[18-Aug-2022 20:11:33 Africa/Lagos] PHP Warning:  Trying to access array offset on value of type null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 223
+[18-Aug-2022 20:11:33 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:223
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(223): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 223
+[28-Aug-2022 08:42:29 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:223
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(223): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 223
+[28-Aug-2022 08:42:46 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:223
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(223): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 223
+[28-Aug-2022 08:56:53 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:223
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(223): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 223
+[28-Aug-2022 08:57:08 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:223
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(223): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 223
+[30-Aug-2022 06:10:56 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:223
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(223): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 223
+[30-Aug-2022 07:40:04 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:223
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(223): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 223
+[30-Aug-2022 07:40:20 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:223
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(223): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 223
+[30-Aug-2022 15:17:46 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:223
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(223): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 223
+[30-Aug-2022 15:18:36 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:223
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(223): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 223
+[04-Sep-2022 06:17:55 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:223
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(223): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 223
+[13-Sep-2022 06:28:07 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:223
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(223): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 223
+[14-Sep-2022 21:49:38 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:223
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(223): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 223
+[14-Sep-2022 21:50:01 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:223
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(223): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 223
+[14-Sep-2022 21:51:11 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:223
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(223): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 223
+[11-Oct-2022 03:53:32 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:223
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(223): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 223
+[11-Oct-2022 03:53:39 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:223
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(223): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 223
+[15-Oct-2022 16:55:21 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:223
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(223): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 223
+[15-Oct-2022 16:55:39 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:223
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(223): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 223
+[15-Oct-2022 17:01:32 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:223
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(223): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 223
+[25-Oct-2022 20:27:49 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:226
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(226): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 226
+[25-Oct-2022 20:28:52 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:226
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(226): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 226
+[28-Oct-2022 04:01:05 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:226
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(226): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 226
+[28-Oct-2022 04:01:07 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:226
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(226): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 226
+[28-Oct-2022 07:13:32 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:226
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(226): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 226
+[28-Oct-2022 07:13:43 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:226
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(226): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 226
+[28-Oct-2022 07:13:45 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:226
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(226): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 226
+[28-Oct-2022 19:53:35 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:226
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(226): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 226
+[28-Oct-2022 19:53:37 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:226
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(226): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 226
+[28-Oct-2022 19:53:38 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:226
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(226): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 226
+[28-Oct-2022 19:53:44 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:226
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(226): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 226
+[28-Oct-2022 19:53:55 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:226
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(226): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 226
+[28-Oct-2022 19:54:19 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:226
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(226): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 226
+[28-Oct-2022 19:54:53 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:226
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(226): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 226
+[28-Oct-2022 19:55:07 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:226
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(226): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 226
+[28-Oct-2022 19:55:24 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:226
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(226): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 226
+[28-Oct-2022 20:01:01 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:226
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(226): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 226
+[28-Oct-2022 20:08:02 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:226
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(226): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 226
+[28-Oct-2022 20:08:10 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:226
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(226): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 226
+[28-Oct-2022 20:16:25 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:226
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(226): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 226
+[28-Oct-2022 20:16:43 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:226
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(226): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 226
+[28-Oct-2022 20:16:50 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:226
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(226): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 226
+[28-Oct-2022 21:03:29 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:226
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(226): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 226
+[28-Oct-2022 21:06:21 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:226
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(226): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 226
+[28-Oct-2022 21:06:28 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:226
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(226): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 226
+[28-Oct-2022 21:06:31 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:226
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(226): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 226
+[28-Oct-2022 21:06:33 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:226
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(226): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 226
+[28-Oct-2022 21:06:35 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:226
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(226): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 226
+[28-Oct-2022 21:06:43 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:226
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(226): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 226
+[28-Oct-2022 21:07:04 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:226
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(226): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 226
+[28-Oct-2022 21:07:08 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:226
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(226): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 226
+[28-Oct-2022 21:07:13 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:226
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(226): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 226
+[28-Oct-2022 21:07:16 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:226
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(226): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 226
+[28-Oct-2022 21:07:20 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:226
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(226): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 226
+[28-Oct-2022 21:07:31 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:226
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(226): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 226
+[28-Oct-2022 22:03:26 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:226
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(226): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 226
+[29-Oct-2022 05:32:13 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:226
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(226): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 226
+[29-Oct-2022 05:32:20 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:226
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(226): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 226
+[29-Oct-2022 05:32:24 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:226
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(226): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 226
+[29-Oct-2022 08:12:14 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:226
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(226): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 226
+[29-Oct-2022 08:53:43 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:226
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(226): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 226
+[29-Oct-2022 09:43:14 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:226
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(226): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 226
+[29-Oct-2022 09:50:18 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:226
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(226): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 226
+[29-Oct-2022 09:52:12 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:226
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(226): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 226
+[29-Oct-2022 09:53:21 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:226
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(226): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 226
+[29-Oct-2022 09:53:25 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:226
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(226): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 226
+[03-Nov-2022 18:16:19 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:227
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(227): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 227
+[03-Nov-2022 18:16:46 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:227
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(227): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 227
+[03-Nov-2022 18:17:03 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:227
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(227): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 227
+[21-Nov-2022 21:22:44 Africa/Lagos] PHP Warning:  Attempt to read property "data" on null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 2289
+[06-Dec-2022 00:33:14 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:227
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(227): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 227
+[06-Dec-2022 00:34:20 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:227
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(227): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 227
+[06-Dec-2022 00:35:02 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:227
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(227): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 227
+[06-Dec-2022 06:22:27 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:227
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(227): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 227
+[05-Jan-2023 08:33:34 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:227
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(227): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 227
+[06-Jan-2023 23:47:22 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:227
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(227): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 227
+[06-Jan-2023 23:47:30 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:227
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(227): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 227
+[14-Jan-2023 11:31:15 Africa/Lagos] PHP Fatal error:  Uncaught mysqli_sql_exception: No such file or directory in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:12
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(12): mysqli->__construct()
+#1 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(2285): User->__construct()
+#2 /home/diteowxv/app.ditepay.com/sources/auth.php(14): require('/home/diteowxv/...')
+#3 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 12
+[18-Jan-2023 04:28:35 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:227
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(227): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 227
+[30-Jan-2023 22:09:37 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:227
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(227): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 227
+[11-Feb-2023 17:01:02 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:227
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(227): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 227
+[11-Feb-2023 17:01:09 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:227
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(227): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 227
+[11-Feb-2023 17:01:14 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:227
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(227): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 227
+[11-Feb-2023 17:01:18 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:227
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(227): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 227
+[11-Feb-2023 17:01:46 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:227
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(227): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 227
+[11-Feb-2023 17:01:51 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:227
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(227): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 227
+[11-Feb-2023 17:02:05 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:227
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(227): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 227
+[11-Feb-2023 17:02:09 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:227
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(227): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 227
+[11-Feb-2023 17:04:04 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:227
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(227): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 227
+[11-Feb-2023 17:04:08 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:227
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(227): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 227
+[11-Feb-2023 17:04:14 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:227
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(227): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 227
+[11-Feb-2023 17:04:16 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:227
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(227): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 227
+[11-Feb-2023 17:04:21 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:227
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(227): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 227
+[11-Feb-2023 19:12:57 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:227
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(227): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 227
+[09-Mar-2023 05:24:05 Africa/Lagos] PHP Warning:  Attempt to read property "status" on null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 976
+[09-Mar-2023 05:24:05 Africa/Lagos] PHP Warning:  Attempt to read property "message" on null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 976
+[09-Mar-2023 05:26:01 Africa/Lagos] PHP Warning:  Attempt to read property "status" on null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 976
+[09-Mar-2023 05:26:01 Africa/Lagos] PHP Warning:  Attempt to read property "message" on null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 976
+[14-Mar-2023 09:33:44 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:227
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(227): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 227
+[14-Mar-2023 09:34:02 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:227
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(227): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 227
+[15-Mar-2023 04:01:57 Africa/Lagos] PHP Warning:  Attempt to read property "status" on null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 976
+[15-Mar-2023 04:01:57 Africa/Lagos] PHP Warning:  Attempt to read property "message" on null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 976
+[15-Mar-2023 04:03:36 Africa/Lagos] PHP Warning:  Attempt to read property "status" on null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 976
+[15-Mar-2023 04:03:36 Africa/Lagos] PHP Warning:  Attempt to read property "message" on null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 976
+[15-Mar-2023 08:39:53 Africa/Lagos] PHP Warning:  Attempt to read property "status" on null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 976
+[15-Mar-2023 08:39:53 Africa/Lagos] PHP Warning:  Attempt to read property "message" on null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 976
+[15-Mar-2023 08:41:33 Africa/Lagos] PHP Warning:  Attempt to read property "status" on null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 976
+[15-Mar-2023 08:41:33 Africa/Lagos] PHP Warning:  Attempt to read property "message" on null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 976
+[20-Mar-2023 18:28:22 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:227
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(227): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 227
+[20-Mar-2023 18:28:55 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:227
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(227): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 227
+[20-Mar-2023 18:29:09 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:227
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(227): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 227
+[20-Mar-2023 20:17:17 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:227
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(227): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 227
+[20-Mar-2023 20:17:31 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:227
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(227): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 227
+[20-Mar-2023 20:34:02 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:227
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(227): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 227
+[21-Mar-2023 10:06:31 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:227
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(227): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 227
+[22-Mar-2023 11:20:02 Africa/Lagos] PHP Warning:  Attempt to read property "status" on null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 976
+[22-Mar-2023 11:20:02 Africa/Lagos] PHP Warning:  Attempt to read property "message" on null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 976
+[22-Mar-2023 11:22:50 Africa/Lagos] PHP Warning:  Attempt to read property "status" on null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 976
+[22-Mar-2023 11:22:50 Africa/Lagos] PHP Warning:  Attempt to read property "message" on null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 976
+[29-Mar-2023 15:40:17 Africa/Lagos] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/diteowxv/app.ditepay.com/main/classes/user.class.php:227
+Stack trace:
+#0 /home/diteowxv/app.ditepay.com/main/classes/user.class.php(227): getimagesize()
+#1 /home/diteowxv/app.ditepay.com/sources/auth.php(77): User->verify_KYC()
+#2 {main}
+  thrown in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 227
+[29-Mar-2023 18:35:18 Africa/Lagos] PHP Warning:  Attempt to read property "status" on null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 976
+[29-Mar-2023 18:35:18 Africa/Lagos] PHP Warning:  Attempt to read property "message" on null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 976
+[29-Mar-2023 20:24:57 Africa/Lagos] PHP Warning:  Attempt to read property "status" on null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 976
+[29-Mar-2023 20:24:57 Africa/Lagos] PHP Warning:  Attempt to read property "message" on null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 976
+[08-May-2023 11:01:45 Africa/Lagos] PHP Warning:  Attempt to read property "status" on null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 976
+[08-May-2023 11:01:45 Africa/Lagos] PHP Warning:  Attempt to read property "message" on null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 976
+[08-May-2023 11:06:32 Africa/Lagos] PHP Warning:  Attempt to read property "status" on null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 976
+[08-May-2023 11:06:32 Africa/Lagos] PHP Warning:  Attempt to read property "message" on null in /home/diteowxv/app.ditepay.com/main/classes/user.class.php on line 976

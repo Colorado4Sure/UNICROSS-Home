@@ -1,0 +1,95 @@
+.crypto-payments-wrapper[data-v-684c657d] {
+    display: flex;
+    flex-direction: column
+}
+
+.crypto-payments-top[data-v-684c657d],
+.crypto-payments-wrapper[data-v-684c657d] {
+    --tw-bg-opacity: 1;
+    background-color: rgba(255, 255, 255, var(--tw-bg-opacity))
+}
+
+.crypto-payments-top[data-v-684c657d] {
+    padding: 3rem 1.25rem 1.75rem;
+    text-align: center;
+    width: 100%
+}
+
+@media (min-width:1024px) {
+    .crypto-payments-top[data-v-684c657d] {
+        padding-bottom: 3rem;
+        padding-top: 5rem
+    }
+}
+
+.crypto-payments-bottom[data-v-684c657d] {
+    background-image: url(/_nuxt/65b20cae5e7aaebfd38bb861d15d151c.svg);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: contain
+}
+
+.crypto-payments-bottom-content[data-v-684c657d] {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    width: 100%
+}
+
+@media (min-width:640px) {
+    .crypto-payments-bottom-content[data-v-684c657d] {
+        flex-direction: row
+    }
+}
+
+.crypto-payments-bottom-content[data-v-684c657d] {
+    --tw-bg-opacity: 1;
+    background-color: rgba(29, 30, 44, var(--tw-bg-opacity));
+    margin-bottom: 10rem;
+    padding-bottom: 3.5rem;
+    padding-top: 3.5rem
+}
+
+@media (min-width:640px) {
+    .crypto-payments-bottom-content[data-v-684c657d] {
+        margin-bottom: 0
+    }
+}
+
+@media (min-width:1024px) {
+    .crypto-payments-bottom-content[data-v-684c657d] {
+        padding-bottom: 5rem;
+        padding-top: 5rem
+    }
+}
+
+.crypto-payments-bottom-content[data-v-684c657d] {
+    padding-left: 6%;
+    padding-right: 6%
+}
+
+@media (min-width:640px) {
+    .crypto-payments-bottom-content[data-v-684c657d] {
+        padding-right: 0
+    }
+}
+
+@media (min-width:1024px) {
+    .crypto-payments-bottom-content[data-v-684c657d] {
+        padding-left: 8%
+    }
+}
+
+@media (min-width:1280px) {
+    .crypto-payments-bottom-content[data-v-684c657d] {
+        padding-left: 10%
+    }
+}
+
+@media (min-width:1536px) {
+    .crypto-payments-bottom-content[data-v-684c657d] {
+        padding-left: 12%
+    }
+}

@@ -1,0 +1,22 @@
+.news-wrapper[data-v-06527fe8] {
+    --tw-bg-opacity: 1;
+    background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+    padding-bottom: 5rem;
+    padding-top: 5rem
+}
+
+@media (min-width:1024px) {
+    .news-wrapper[data-v-06527fe8] {
+        padding-bottom: 8rem;
+        padding-top: 8rem
+    }
+}
+
+.card-text[data-v-06527fe8] {
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    margin-bottom: 1.25rem;
+    max-height: 4.5rem;
+    overflow: hidden
+}

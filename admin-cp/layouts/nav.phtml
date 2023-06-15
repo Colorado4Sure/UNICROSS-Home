@@ -1,0 +1,199 @@
+<!-- sidebar @s -->
+<div class="nk-sidebar nk-sidebar-fixed is-dark " data-content="sidebarMenu">
+    <div class="nk-sidebar-element nk-sidebar-head">
+        <div class="nk-menu-trigger">
+            <a href="#" class="nk-nav-toggle nk-quick-nav-icon d-xl-none" data-target="sidebarMenu"><em class="icon ni ni-arrow-left"></em></a>
+            <a href="#" class="nk-nav-compact nk-quick-nav-icon d-none d-xl-inline-flex" data-target="sidebarMenu"><em class="icon ni ni-menu"></em></a>
+        </div>
+        <div class="nk-sidebar-brand">
+            <a href="admin-cp" class="logo-link nk-sidebar-logo">
+                <img class="logo-light logo-img" src="asset/images/logo.png" srcset="./images/logo2x.png 2x" alt="logo">
+                <img class="logo-dark logo-img" src="asset/images/logo-dark.png" srcset="./images/logo-dark2x.png 2x" alt="logo-dark">
+            </a>
+        </div>
+    </div><!-- .nk-sidebar-element -->
+    <div class="nk-sidebar-element nk-sidebar-body">
+        <div class="nk-sidebar-content">
+            <div class="nk-sidebar-menu" data-simplebar>
+                <ul class="nk-menu">
+                    <li class="nk-menu-item">
+                        <a href="/admin-cp/dashboard" class="nk-menu-link">
+                            <span class="nk-menu-icon"><em class="icon ni ni-dashlite"></em></span>
+                            <span class="nk-menu-text">Dashboard</span>
+                        </a>
+                    </li><!-- .nk-menu-item -->
+                    <li class="nk-menu-item">
+                        <a href="/admin-cp/index-crypto" class="nk-menu-link">
+                            <span class="nk-menu-icon"><em class="icon ni ni-bitcoin-cash"></em></span>
+                            <span class="nk-menu-text">Crypto Dashboard</span>
+                        </a>
+                    </li><!-- .nk-menu-item -->
+                    <li class="nk-menu-heading">
+                        <h6 class="overline-title text-primary-alt">Account Actions</h6>
+                    </li><!-- .nk-menu-heading -->
+                    <li class="nk-menu-item has-sub">
+                        <a href="#" class="nk-menu-link nk-menu-toggle">
+                            <span class="nk-menu-icon"><em class="icon ni ni-users"></em></span>
+                            <span class="nk-menu-text">Manage Users</span>
+                        </a>
+                        <ul class="nk-menu-sub">
+                            <li class="nk-menu-item">
+                                <a href="/admin-cp/manage-users" class="nk-menu-link"><span class="nk-menu-text">All Users</span></a>
+                            </li>
+                            <li class="nk-menu-item">
+                                <a href="/admin-cp/add-user" class="nk-menu-link"><span class="nk-menu-text">Add User</span></a>
+                            </li>
+                        </ul><!-- .nk-menu-sub -->
+                    </li><!-- .nk-menu-item -->
+                    <li class="nk-menu-item">
+                        <a href="/admin-cp/manage-kyc" class="nk-menu-link">
+                            <span class="nk-menu-icon"><em class="icon ni ni-file-docs"></em></span>
+                            <span class="nk-menu-text">Manage KYCs</span>
+                        </a>
+                    </li><!-- .nk-menu-item -->
+                    <li class="nk-menu-item has-sub">
+                        <a href="#" class="nk-menu-link nk-menu-toggle">
+                            <span class="nk-menu-icon"><em class="icon ni ni-tranx"></em></span>
+                            <span class="nk-menu-text">Transactions</span>
+                        </a>
+                        <ul class="nk-menu-sub">
+                            <li class="nk-menu-item">
+                                <a href="/admin-cp/all-transactions" class="nk-menu-link"><span class="nk-menu-text">Basic Transactions</span></a>
+                            </li>
+                            <li class="nk-menu-item">
+                                <a href="/admin-cp/crypto-transaction" class="nk-menu-link"><span class="nk-menu-text">Crypto Transactions</span></a>
+                            </li>
+                        </ul><!-- .nk-menu-sub -->
+                    </li><!-- .nk-menu-item -->
+                    <li class="nk-menu-item">
+                        <a class="nk-menu-link" href="/admin-cp/activities">
+                            <span class="nk-menu-icon">
+                                <em class="icon ni ni-text-rich"></em>
+                            </span>
+                            <span class="nk-menu-text">Activities</span>
+                        </a>
+                    </li>
+                    <li class="nk-menu-item has-sub">
+                        <a href="#" class="nk-menu-link nk-menu-toggle">
+                            <span class="nk-menu-icon"><em class="icon ni ni-file-docs"></em></span>
+                            <span class="nk-menu-text">Services</span>
+                        </a>
+                        <ul class="nk-menu-sub">
+                            <li class="nk-menu-item">
+                                <a href="/admin-cp/manage-vtu" class="nk-menu-link"><span class="nk-menu-text">VTU Services</span></a>
+                            </li>
+                            <li class="nk-menu-item">
+                                <a href="/admin-cp/manage-bills" class="nk-menu-link"><span class="nk-menu-text">Bill Services</span></a>
+                            </li>
+                        </ul><!-- .nk-menu-sub -->
+                    </li><!-- .nk-menu-item -->
+                    <li class="nk-menu-item has-sub">
+                        <a href="#" class="nk-menu-link nk-menu-toggle">
+                            <span class="nk-menu-icon"><em class="icon ni ni-gift"></em></span>
+                            <span class="nk-menu-text">Gift Pin</span>
+                        </a>
+                        <ul class="nk-menu-sub">
+                            <li class="nk-menu-item">
+                                <a href="/admin-cp/gift-pins" class="nk-menu-link"><span class="nk-menu-text">All Gift Pins</span></a>
+                            </li>
+                            <li class="nk-menu-item">
+                                <a href="/admin-cp/create-gift-pin" class="nk-menu-link"><span class="nk-menu-text">Create Gift pin</span></a>
+                            </li>
+                        </ul><!-- .nk-menu-sub -->
+                    </li><!-- .nk-menu-item -->
+
+                    <?php if ($user->type === 'super-admin') { ?>
+                        <!--  super Admin Actions starts here -->
+                        <li class="nk-menu-heading">
+                            <h6 class="overline-title text-primary-alt">Super Admin</h6>
+                        </li><!-- .nk-menu-heading -->
+                        <li class="nk-menu-item">
+                            <a href="/admin-cp/transit" class="nk-menu-link">
+                                <span class="nk-menu-icon"><em class="icon ni ni-file-docs"></em></span>
+                                <span class="nk-menu-text">Transit Accounts</span>
+                            </a>
+                        </li><!-- .nk-menu-item -->
+                        <li class="nk-menu-item has-sub">
+                            <a href="#" class="nk-menu-link nk-menu-toggle">
+                                <span class="nk-menu-icon"><em class="icon ni ni-files"></em></span>
+                                <span class="nk-menu-text">Virtual Account</span>
+                            </a>
+                            <ul class="nk-menu-sub">
+                                <li class="nk-menu-item">
+                                    <a href="/admin-cp/virtual-accounts" class="nk-menu-link"><span class="nk-menu-text">All Virtual Accounts</span></a>
+                                </li>
+                                <li class="nk-menu-item">
+                                    <a href="/admin-cp/generate" class="nk-menu-link"><span class="nk-menu-text">Create Virtual Account</span></a>
+                                </li>
+                            </ul><!-- .nk-menu-sub -->
+                        </li><!-- .nk-menu-item -->
+                        <li class="nk-menu-item">
+                            <a href="/admin-cp/mails" class="nk-menu-link">
+                                <span class="nk-menu-icon"><em class="icon ni ni-mail"></em></span>
+                                <span class="nk-menu-text">Inbox / Mail</span>
+                            </a>
+                        </li><!-- .nk-menu-item -->
+                    <?php } ?>
+                    <!--  super Admin Actions ends here -->
+
+                    <li class="nk-menu-heading">
+                        <h6 class="overline-title text-primary-alt">Misc Pages</h6>
+                    </li><!-- .nk-menu-heading -->
+                    <li class="nk-menu-item has-sub">
+                        <a href="#" class="nk-menu-link nk-menu-toggle">
+                            <span class="nk-menu-icon"><em class="icon ni ni-files"></em></span>
+                            <span class="nk-menu-text">Pages</span>
+                        </a>
+                        <ul class="nk-menu-sub">
+                            <li class="nk-menu-item">
+                                <a href="/admin-cp/_blank" class="nk-menu-link"><span class="nk-menu-text">Blank / Startup</span></a>
+                            </li>
+                            <li class="nk-menu-item">
+                                <a href="/admin-cp/faqs" class="nk-menu-link"><span class="nk-menu-text">Faqs / Help</span></a>
+                            </li>
+                            <li class="nk-menu-item">
+                                <a href="/admin-cp/terms-policy" class="nk-menu-link"><span class="nk-menu-text">Terms / Policy</span></a>
+                            </li>
+                            <li class="nk-menu-item">
+                                <a href="/admin-cp/regular-v1" class="nk-menu-link"><span class="nk-menu-text">Regular Page</span></a>
+                            </li>
+                            <li class="nk-menu-item">
+                                <a href="/admin-cp/regular-v2" class="nk-menu-link"><span class="nk-menu-text">Regular Page</span></a>
+                            </li>
+                        </ul><!-- .nk-menu-sub -->
+                    </li><!-- .nk-menu-item -->
+                    <li class="nk-menu-heading">
+                        <h6 class="overline-title text-primary-alt">Components</h6>
+                    </li><!-- .nk-menu-heading -->
+                    <li class="nk-menu-item has-sub">
+                        <a href="#" class="nk-menu-link nk-menu-toggle">
+                            <span class="nk-menu-icon"><em class="icon ni ni-setting-alt"></em></span>
+                            <span class="nk-menu-text">Site Settings</span>
+                        </a>
+                        <ul class="nk-menu-sub">
+                            <li class="nk-menu-item">
+                                <a href="/admin-cp/site-settings" class="nk-menu-link">
+                                    <span class="nk-menu-text">Site Settings</span>
+                                </a>
+                            </li>
+                            <li class="nk-menu-item">
+                                <a href="/admin-cp/payment-gateways" class="nk-menu-link">
+                                    <span class="nk-menu-text">Payment Settings</span>
+                                </a>
+                            </li>
+                            <li class="nk-menu-item">
+                                <a href="/admin-cp/site-rates" class="nk-menu-link">
+                                    <span class="nk-menu-text">Rate/Changes</span>
+                                </a>
+                            </li>
+                        </ul><!-- .nk-menu-sub -->
+                    </li><!-- .nk-menu-item -->
+                </ul><!-- .nk-menu -->
+            </div><!-- .nk-sidebar-menu -->
+        </div><!-- .nk-sidebar-content -->
+    </div><!-- .nk-sidebar-element -->
+</div>
+<!-- sidebar @e -->
+
+<!-- wrap @s -->
+<div class="nk-wrap ">

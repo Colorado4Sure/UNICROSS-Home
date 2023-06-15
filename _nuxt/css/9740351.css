@@ -1,0 +1,60 @@
+.more-from-crypto-wrapper[data-v-3b92a168] {
+    --tw-bg-opacity: 1;
+    background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+    display: flex;
+    padding-bottom: 5rem;
+    padding-top: 5rem
+}
+
+.crypto-device[data-v-3b92a168] {
+    background-repeat: no-repeat;
+    /* display: grid; */
+    flex-shrink: 0;
+    gap: 2rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    padding-top: 3.5rem;
+    position: relative
+}
+
+@media (min-width:640px) {
+    .crypto-device[data-v-3b92a168] {
+        padding-top: 4rem
+    }
+}
+
+.crypto-device[data-v-3b92a168] {
+    background-image: url(/_nuxt/46ba6fad676c644a0e7528079da40846.svg);
+    background-position: top;
+    background-size: 18%
+}
+
+.card-wrapper[data-v-226e3890] {
+    border-radius: 1.5rem;
+    padding-bottom: .25rem;
+    position: relative
+}
+
+.card-wrapper .layer-0[data-v-226e3890] {
+    background-color: rgba(239, 242, 247, var(--tw-bg-opacity));
+    bottom: 0;
+    left: .25rem;
+    position: absolute;
+    right: .25rem;
+    top: 0;
+    z-index: 1
+}
+
+.card-wrapper .layer-0[data-v-226e3890],
+.card-wrapper .layer-1[data-v-226e3890] {
+    --tw-bg-opacity: 1;
+    border-radius: 1.5rem
+}
+
+.card-wrapper .layer-1[data-v-226e3890] {
+    --tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    height: 100%;
+    position: relative;
+    z-index: 3
+}

@@ -18,15 +18,13 @@ if (isset($_GET['payload'])) {
 
     // Paystack Payment Method
     if (isset($_GET['method']) && $_GET['method'] == 'paystack') {
-      
-      echo '<h1> Paystack Gateway is not supported at the moment! </h1>';
-      echo '<br><button onclick="history.back()">Back</button>';
-      Return;
       $url = "https://api.paystack.co/transaction/initialize";
       $fields = [
         'email' => $_GET['user'],
         'amount' => $_GET['amount'] * 100,
-        'reference' => $_GET['payload']
+        'reference' => $_GET['payload'],
+        'callback_url' => $app->siteurl . 'account/backend/deposit/?payload=' . $_GET['payload'] . '&method=' . $_GET['method'],
+
       ];
       $fields_string = http_build_query($fields);
       //open connection
@@ -37,7 +35,7 @@ if (isset($_GET['payload'])) {
       curl_setopt($ch, CURLOPT_POST, true);
       curl_setopt($ch, CURLOPT_POSTFIELDS, $fields_string);
       curl_setopt($ch, CURLOPT_HTTPHEADER, array(
-        "Authorization: Bearer sk_live_bf9bb9c402757d4259159d38616b6bce535b80e2",
+        "Authorization: Bearer sk_test_0f8d73c1f5d890a25e9a62a3e9fd98cd70988e41",
         "Cache-Control: no-cache",
       ));
 
@@ -61,12 +59,12 @@ if (isset($_GET['payload'])) {
         'amount' => $_GET['amount'],
         'tx_ref' => $_GET['payload'],
         'currency' => "NGN",
-        'redirect_url' => $app->siteurl.'account/backend/deposit/?payload=' . $_GET['payload'].'&method='.$_GET['method'],
+        'redirect_url' => $app->siteurl . 'account/backend/deposit/?payload=' . $_GET['payload'] . '&method=' . $_GET['method'],
         'customer' => [
           'email' => $_GET['user'],
         ],
       ]);
-      
+
       //open connection
       $curl = curl_init();
 
@@ -81,7 +79,7 @@ if (isset($_GET['payload'])) {
         CURLOPT_CUSTOMREQUEST => 'POST',
         CURLOPT_POSTFIELDS => $fields,
         CURLOPT_HTTPHEADER => array(
-          'Authorization: Bearer FLWSECK-5ad8779af42984a87bd098aa2a7748eb-X',
+          'Authorization: Bearer FLWSECK_TEST-b1633bf19ac9630f7052da619e028a7d-X',
           'Content-Type: application/json'
         ),
       ));
@@ -99,7 +97,6 @@ if (isset($_GET['payload'])) {
       } else {
         echo 'We can not process your payment';
       }
-
     }
   } else {
     if (isset($_GET['method']) && $_GET['method'] == 'paystack')
@@ -114,7 +111,7 @@ if (isset($_GET['payload'])) {
       echo "<script>window.close();</script>";
     } else {
       echo "<h1>" . $depo->message . '</h1>';
-      header("refresh:2; url=".$app->siteurl."account");
+      header("refresh:2; url=" . $app->siteurl . "account");
     }
   }
 } else {

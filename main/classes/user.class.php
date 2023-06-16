@@ -484,7 +484,7 @@ class User
       CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
       CURLOPT_CUSTOMREQUEST => 'GET',
       CURLOPT_HTTPHEADER => array(
-        'x-access-token: ' . $this->is_login()
+        'Authorization: ' . $this->is_login()
       ),
     ));
 
@@ -602,14 +602,14 @@ class User
     $errorMSG = "";
     /* EMAIL */
     if (empty($_POST["method"])) {
-      $errorMSG .= "<li>Payment method is required!</<li>";
+      $errorMSG .= "Payment method is required!";
     } else {
       $method = $_POST["method"];
     }
 
     /* PASS */
     if (empty($_POST["amount"])) {
-      $errorMSG .= "<li>Please specify amount to deposit!</<li>";
+      $errorMSG .= "Please specify amount to deposit!";
     } else {
       $amount = $_POST["amount"];
     }
@@ -628,7 +628,7 @@ class User
         CURLOPT_CUSTOMREQUEST => 'POST',
         CURLOPT_POSTFIELDS => 'amount=' . $amount . '&payment_method=' . $method,
         CURLOPT_HTTPHEADER => array(
-          'x-access-token: ' . $this->is_login()
+          'Authorization: ' . $this->is_login()
         ),
       ));
 
@@ -663,7 +663,7 @@ class User
       CURLOPT_CUSTOMREQUEST => 'PUT',
       CURLOPT_POSTFIELDS => 'tx_ref=' . $ref . '&payment_method=' . $method,
       CURLOPT_HTTPHEADER => array(
-        'x-access-token: ' . $this->is_login()
+        'Authorization: ' . $this->is_login()
       ),
     ));
 
